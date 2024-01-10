@@ -1,0 +1,98 @@
+.web-page{
+  padding: 0px;
+  margin: 0px;
+}
+.bg-light {
+  --bs-bg-opacity: 0;
+  background-color:white;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px !important;
+  padding: 0px;
+  margin: 0px;
+  border: 3px solid white;
+}
+.navbar{
+  margin: 20px 0px 0px 0px ;
+}
+  .navbar-nav {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin: 0px 30px;
+  text-transform: uppercase;
+  color:#54595F;
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom:25px;
+}
+.navbar-nav .nav-link:hover{
+  border-bottom:3px solid #0dba4b !important;
+  color: #0dba4b ;
+}
+.active{
+  border-bottom:3px solid #0dba4b !important;
+  color: #0dba4b !important;
+}
+.navbar-nav .nav-item {
+  display: inline;
+}
+.body-nav{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0px;
+}
+.card{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; ;
+  
+}
+.col{
+  display: flex;
+}
+.custom-img {
+  height: 175px; /* Adjust the height as needed */
+  object-fit: cover; /* Helps maintain aspect ratio */
+}
+.card-body{
+  padding: 20px 20px 15px 20px;
+
+}
+.card-title{
+  font-size: 24px;
+  font-weight:400;
+}
+.card-text{
+  font-size:16px;
+  color:#848684 ;
+
+}
+p {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.btn{
+  color: #0dba4b;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0rem; 
+  padding: 0rem;
+}
+.btn:hover{
+  border: 0px;
+}
+.card-bottom{
+  border-top: 1px solid #eaeaea;
+  padding: 10px 20px 15px 20px;
+}
+.card-bottom span{
+  font-size: 12px;
+  color: #adadad;
+  padding-right:9px;
+  font-weight: 400;
+}
